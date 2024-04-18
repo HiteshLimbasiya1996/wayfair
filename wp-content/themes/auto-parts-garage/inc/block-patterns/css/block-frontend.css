@@ -1,0 +1,284 @@
+.auto-parts-garage-slider-section img.wp-block-cover__image-background{
+    position: relative;
+    height: auto;
+}
+.auto-parts-garage-slider-section{
+    margin-bottom: 50px;
+    display: block;
+    padding: 0em;
+} 
+.auto-parts-garage-slider-section .slider-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    text-align: center;
+    z-index: 99;
+    left: 50%;
+    right: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; 
+}
+.auto-parts-garage-slider-section h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.auto-parts-garage-slider-section h1:hover{
+    color:#fdb819 !important;
+}
+.auto-parts-garage-slider-section p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.auto-parts-garage-slider-section .slider-btn a{
+    display: inline-block;
+    color: #1b1b1b !important;
+    font-weight: 500;
+    padding: 15px 25px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+.auto-parts-garage-slider-section .slider-btn a:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.auto-parts-garage-product-section .product-cat{
+    display: unset;
+    position: unset;
+}
+.product-section {
+    margin-top: 20px;
+}
+.product-section .wc-block-grid__product-image img{
+    width: 100px !important;
+    height: 100px !important;
+}
+.product-section .wc-block-grid__product-onsale{
+    display: none;
+}
+.product-section a.wc-block-grid__product-link{
+    display: flex;
+}
+.product-section .wc-block-grid__product-add-to-cart{
+   margin-top: 30px !important;
+   margin-right: 45px !important;
+}
+.product-section  .wc-block-grid__product-title{
+    margin: 0px 0px 0px 25px !important;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: ;
+    letter-spacing: 1px;
+}
+.product-section #content-vw a, .entry-content a, .widget_text a, .woocommerce-page .entry-summary a, .comment-content p a{
+    text-decoration: none !important;
+}
+.product-section .price{
+    margin: -40px 70px -20px 0px !important;
+    color: #1b1b1b;
+    font-size: 13px;
+    font-weight: 600;
+}
+.product-section li.wc-block-grid__product{
+    padding: 50px 0px;
+}
+.auto-parts-garage-product-section .is-layout-flow.wp-block-column.cover-section{
+    margin-top: 30px;
+}
+.cover-section span.wp-block-cover__background.has-background-dim{
+    position: relative;
+}
+.cover-section .wp-block-cover{
+    min-height: auto;
+}
+.cover-section img{
+    width: 100% !important;
+}
+.cover-section p.has-text-align-center.cover-heading.has-large-font-size{
+    font-size: 30px !important;
+    font-weight: 600;
+}
+.cover-btn .wp-block-button__link{
+    display: inline-block;
+    color: #1b1b1b !important;
+    font-weight: 500;
+    padding: 15px 25px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+.cover-btn .wp-block-button__link:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.cover-section .wp-block-cover__inner-container{
+    top: 5%;
+    text-align: center;
+    left: 5%;
+    border: 4px solid #fff;
+    right: 5%;
+    padding: 5em 5em 11.5em 5em;
+    bottom: 5%;
+}
+.product-heading{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.product-section .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link{
+    background: url(../images/product-cart.png) no-repeat scroll 14px #fff !important;
+    text-indent: -9999px;
+    float: right;
+    margin-top: -28%;
+    padding: 26px 24px !important;
+    color: #fff;
+    border-radius: 30px !important;
+    border: 1px solid #000;
+}
+.product-section .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:hover{
+    background: url(../images/product-cart.png) no-repeat scroll 12px #fdb819 !important;
+}
+.product-cat li{
+    border-bottom: solid 1px #ccc !important;
+}
+.product-section  li.wc-block-grid__product{
+    position: relative;
+}
+.product-section .star-rating{
+    position: absolute;
+    top: 42%;
+    left: -80px;
+    right: 0;
+    color: #fdb819;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+   .auto-parts-garage-slider-section img{
+        height: auto !important;  
+    }
+    .auto-parts-garage-slider-section p{
+        display: none;
+    }
+    .auto-parts-garage-slider-section h1{
+        font-size: 35px;
+    }
+    .auto-parts-garage-slider-section .slider-content{
+        top:35% ;
+        text-align: center;
+        left: 10%;
+        right: 10%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .auto-parts-garage-slider-section h1{
+        font-size: 20px;
+    }
+    .auto-parts-garage-slider-section .slider-btn a{
+        letter-spacing: 0;
+    }
+    .auto-parts-garage-slider-section{
+        margin-bottom: 40px;
+        min-height: auto;
+    }
+    .product-section a.wc-block-grid__product-link{
+        display: block;
+    }
+    .product-section .wc-block-grid__product-title{
+        margin: 35px 0px 0px 10px !important;
+        text-align: left;
+    }
+    .wc-block-grid__product-price.price{
+        text-align: left;
+        margin: 20px 0px 0px 10px !important;
+    }
+    .product-section .wc-block-grid__product-add-to-cart{
+        margin: 15px 20px 0px 0px !important;
+    }
+    .cover-section .wp-block-cover__inner-container{
+        padding: 4em 2em 5em 2em;
+    }
+    .product-section .wc-block-grid__product-image img{
+        width: 100%;
+        height: auto;
+    }
+    .product-section .star-rating {
+        top: 90%;
+        left: -196px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+   .auto-parts-garage-product-section{
+        flex-wrap: nowrap !important;
+   }
+   .product-section  .wc-block-grid__product-title{
+        font-size: 16px;
+            margin: 0px 0px 0px 6px !important;
+    }
+    .product-section .price{
+        margin: -28% 0px 0px 36%!important;
+    }
+    .product-section .wc-block-grid__product-add-to-cart{
+       margin-top: -40px !important;
+       margin-right: -20px !important;
+    }
+    .cover-section  .wp-block-cover__inner-container{       
+        padding: 2em 1em 2.5em 1em;
+    }
+    .cover-btn .wp-block-button__link{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .product-section .wc-block-grid__product-image img{
+        width: 70px;
+        height: 70px;
+    }
+    .product-section .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link{
+        padding: 20px 20px 20px 25px !important;
+        margin-top: -34px;
+    }
+    .product-section .star-rating { 
+        top: 42%;
+        left: 54px;
+    }
+}
+@media screen and (min-width: 999px) and (max-width: 1024px){
+    .cover-section  .wp-block-cover__inner-container{       
+        padding: 4.5em 3em;
+    }
+    .product-section .price{
+        margin: -50px -40px 0px 0px !important;
+    }
+    .product-section .wc-block-grid__product-add-to-cart{
+       margin-top: -10px;
+       margin-right: 5px;
+    }
+    .product-section li.wc-block-grid__product{
+        padding: 30px 0px;
+    }
+    .product-section .star-rating {
+        top: 43%;
+        left: 34px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .product-section .price{
+        margin: -40px 70px -20px 65px !important;
+    }
+    .product-section .wc-block-grid__product-title{
+        margin: 0 0 0 8px !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .product-section .price{
+        margin: -40px 70px -20px 40px !important;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 767px){
+    .product-section .price{
+        margin: -40px 70px -20px -20% !important;
+    }
+}    
+

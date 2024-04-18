@@ -1,0 +1,493 @@
+/*
+Theme Name:     Store Press
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/free-ecommerce-wordpress-theme/
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com
+Description:    Store Press is a clean user-friendly and feature-rich best free eCommerce Sparkle Store child WordPress themes. This themes is designed and developed especially for online shopping, eCommerce store websites. This is a versatile and highly customizable free Sparkle store Child WordPress themes that allow you to make your own unique and professional website you have always wanted. Store Press is one of the most accessible eCommerce online store WordPress themes which can easily accommodate all type of users with no coding skills to advanced or normal web developers. This theme includes excellent features for eCommerce website and practices of all type of eCommerce business, themes have included more advanced features like one-click demo data import, webpage layout, preloader, advanced theme color, customizer based theme options, page builder-friendly design, individual page &  post layout options also store press is fully compatible with WooCommerce and some other external plugins like YITH WooCommerce Wishlist, YITH WooCommerce Quick View, WOOF – Products Filter for WooCommerce, WooCommerce Variation Swatches, Jetpack, Contact Form 7 and many more plugins. if you face any problem while using our theme, you can refer to our theme documentation (http://docs.sparklewpthemes.com/sparklestore/) or contact our friendly support team (https://sparklewpthemes.com/support/) or Check demo at http://demo.sparklewpthemes.com/sparklestore/store-press/ and Read theme details at https://sparklewpthemes.com/wordpress-themes/store-press
+Version:        1.0.5
+Tested up to:   6.2
+Requires PHP:   7.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       sparklestore
+Text Domain:    store-press
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-background, custom-menu, translation-ready, featured-images, theme-options, custom-logo, e-commerce, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Store Press is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Sparklewpthemes is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.header-top {
+    background-color: black;
+}
+
+.header-top * {
+    color: #fff;
+}
+
+.social ul li a {
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+.top-bar-menu .social ul li a {
+    font-size: 13px;
+}
+
+.block-search .input {
+    border-radius: 25px 0 0 25px;
+}
+
+.block-search .btn-submit {
+    border-radius: 0 30px 30px 0;
+    width: 85px;
+}
+
+.chosen-container-single .chosen-single {
+    border-right: 1px solid silver;
+    color: #fff;
+}
+
+.site-cart-items-wrap .item {
+    display: none;
+}
+
+.site-cart-items-wrap {
+    background: transparent !important;
+    color: #000;
+    border: 1px solid;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    font-size: 100%;
+}
+
+.slider-inner-wrap.sliderpromo.bottom {
+    grid-template-columns: auto;
+    gap: 0;
+    position: relative;
+}
+
+.sliderpromo.bottom .sparklestore_wrap_promo {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    grid-row: 2;
+    position: absolute;
+    bottom: 20px;
+    z-index: 9;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 1em;
+}
+
+.sliderpromo.bottom .sparklestore_wrap_promo .sparklestore_promo_wrap {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.sliderpromo.bottom .sparklestore_wrap_promo .sparklestore_promo_wrap:first-child {
+    margin-bottom: 0;
+}
+
+.sliderpromo.bottom .sparklestore_wrap_promo .sparklestore_promo_wrap img {
+    height: 180px;
+    object-fit: contain;
+}
+
+.container.fullwidthslider {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.sliderpromo {
+    margin: 0;
+}
+
+.promosection .promoarea .textwrap {
+    bottom: 0;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    background: #0000006b;
+    text-transform: uppercase;
+}
+
+.category-style-1 .product.product-category .woocommerce-loop-category__title {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0000006b;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.category-style-1 .product.product-category:hover .woocommerce-loop-category__title,
+.promosection .promoarea:hover .textwrap {
+    background: #FED700;
+}
+
+.woocommerce ul.products li.product .price del,
+.store_products_item_details .price del,
+.woocommerce div.product p.price del,
+.woocommerce div.product span.price del {
+    color: #443c3c;
+    font-weight: normal;
+}
+
+.promobanner-caption h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.fullpromobanner .banner-img:before {
+    bottom: 40px;
+    content: "";
+    left: 7.5px;
+    position: absolute;
+    right: 7.5px;
+    top: 40px;
+    z-index: 2;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+    transform: scale(0, 1);
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.fullpromobanner .banner-img:after {
+    bottom: 7.5px;
+    content: "";
+    left: 40px;
+    position: absolute;
+    right: 40px;
+    top: 7.5px;
+    z-index: 2;
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    -o-transform: scale(1, 0);
+    transform: scale(1, 0);
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.fullpromobanner .banner-img:before,
+.fullpromobanner .banner-img:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+.fullpromobanner:hover .banner-img:before,
+.fullpromobanner:hover .banner-img:after {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+.product-wrapper {
+    border-radius: 15px;
+}
+
+.articlesListing .article .box .btn-wrap {
+    display: none;
+}
+
+.articlesListing .article .box {
+    text-align: left;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.articlesListing .article .metainfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articlesListing .article .metainfo>div+div {
+    display: none;
+}
+
+.widget ul li,
+.footer-widgets .widget ul li {
+    padding: 0;
+}
+
+.footer-widgets .widget ul li ul {
+    margin-left: 10px;
+}
+
+.woocommerce ul.cart_list,
+.woocommerce ul.product_list_widget {
+    padding: 5px;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li,
+.woocommerce.widget_shopping_cart .cart_list li {
+    box-shadow: 0 6px 40px 0 rgba(155, 155, 155, 0.25);
+}
+
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {
+    width: 60px;
+}
+
+.woocommerce .widget_shopping_cart .total strong,
+.woocommerce.widget_shopping_cart .total strong {
+    text-transform: uppercase;
+}
+
+.site-header-cart .widget_shopping_cart {
+    border-radius: 5px;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove,
+.woocommerce.widget_shopping_cart .cart_list li a.remove {
+    color: #fff !important;
+    background: lightcoral;
+    right: 0;
+    top: -5px;
+    line-height: 1;
+}
+
+.woocommerce-page ul.cart_list li a,
+.woocommerce-page ul.product_list_widget li a,
+.widget_top_rated_products .product_list_widget .product-title {
+    line-height: 1.4;
+}
+
+.site-cart-items-wrap .count {
+    color: #fff;
+}
+
+.widget-heading {
+    border-color: silver;
+}
+
+/** free hand html */
+.ed-call-to-action {
+    display: flex;
+}
+
+.ed-flex-1 {
+    flex: 1;
+}
+
+.ed-call-to-action h2 {
+    font-size: 80px;
+    color: inherit;
+}
+
+.sparkle-maintenance-countdown {
+    margin: 60px 0 30px;
+}
+
+.sparkle-maintenance-countdown.circle .sparkle-count-label {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: 15px;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.sparkle-maintenance-countdown>.sparkle-count-label span {
+    display: block;
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sparkle-maintenance-countdown>.sparkle-count-label label {
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.cons-register-now-form .title {
+    position: relative;
+    padding: 22px 30px 70px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 22px;
+    overflow: hidden;
+    margin: 0 0 23px;
+    color: #fff;
+}
+
+.cons-register-now-form .title::before {
+    height: 820px;
+    content: '';
+    border-radius: 50%;
+    bottom: 20px;
+    right: auto;
+    width: 820px;
+    z-index: -1;
+    position: absolute;
+    left: calc(50% - 410px);
+    left: -webkit-calc(50% - 410px);
+    left: -moz-calc(50% - 410px);
+    background-color: red;
+}
+
+#free-hand-text-section {
+    padding: 50px 0;
+    position: relative;
+}
+
+#free-hand-text-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 75, 75, 0.589);
+    z-index: 0;
+}
+
+.cons-register-now-form {
+    margin: 80px 0;
+    background: #f9f9f9;
+    position: relative;
+    max-width: 400px;
+    float: right;
+    min-height: 453px;
+    z-index: 1;
+    padding: 0;
+}
+
+.cons-register-now-form div.wpcf7 {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#free-hand-text-section p.title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    display: flex;
+    padding-right: 5px;
+    min-width: 150px;
+    width: fit-content;
+    width: -moz-available;
+}
+
+.category-search-form .category {
+    width: 180px;
+}
+
+.contact-info h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.contact-info .site-cart-items-wrap {
+    margin-right: 5px;
+}
+
+.block-search .input {
+    width: 350px;
+}
+
+.category-search-form .chosen-container {
+    min-width: 150px !important;
+}
+
+form.search-form {
+    position: relative;
+}
+
+.widget_search .search-submit {
+    height: 47px;
+}
+
+.categorproducts .categoryproductslider .homeblockinner {
+    border-radius: 10px;
+}
+
+@media(max-width: 678px) {
+    .normalsearch.block-search .input {
+        width: fit-content;
+        width: -moz-available;
+    }
+}
+
+@media (max-width: 500px) {
+    .category-search-form .category {
+        width: 100%;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .block-search .category select,
+    .block-search .btn-submit,
+    .block-search .input {
+        border-radius: 25px;
+        padding: 8px 15px;
+    }
+
+    .sliderpromo.bottom .sparklestore_wrap_promo .sparklestore_promo_wrap img {
+        height: 180px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .sliderpromo.bottom .sparklestore_wrap_promo {
+        display: block;
+        position: relative;
+        bottom: 0;
+    }
+
+    .sliderpromo.bottom .sparklestore_wrap_promo .sparklestore_promo_wrap:first-child {
+        margin-bottom: 15px;
+    }
+
+    .articlesListing:not(.site-main) .article.format-gallery {
+        max-width: 300px;
+    }
+
+    .top-bar-menu ul>* {
+        padding: 0;
+    }
+
+    .sub-top-inner .sociallink,
+    .sub-top-footer,
+    .sub-top-inner .social ul {
+        padding: 0;
+        margin: 0;
+    }
+}

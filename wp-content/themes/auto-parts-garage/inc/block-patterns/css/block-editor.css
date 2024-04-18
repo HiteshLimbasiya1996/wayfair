@@ -1,0 +1,173 @@
+/*font family*/
+.auto-parts-garage-slider-section h1,
+.auto-parts-garage-slider-section p,
+.auto-parts-garage-slider-section .wp-block-button__link,
+.auto-parts-garage-product-section h3,.auto-parts-garage-product-section .wc-block-grid__product-title,
+.product-section .price, .cover-section p , .cover-section .wp-block-button__link{
+    font-family: play, sans-serif;
+} 
+
+/*slider section*/
+.auto-parts-garage-slider-section img.wp-block-cover__image-background{
+    position: relative;  
+}
+.auto-parts-garage-slider-section{
+    margin-bottom: 50px;
+    display: block;
+    padding: 0em;
+}
+.slider-left{
+    display: none;
+}
+.auto-parts-garage-slider-section .slider-content{
+    position: absolute;
+    transform: translateY(-50%);
+    bottom: 50%;
+    text-align: center;
+    z-index: 99;
+    left: 47%;
+    right: 10%;
+    padding-top: 24rem;
+    padding-bottom: 1.25rem;
+    width: 83%;
+} 
+.auto-parts-garage-slider-section h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.auto-parts-garage-slider-section h1:hover{
+    color:#fdb819 !important;
+}
+.auto-parts-garage-slider-section p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.auto-parts-garage-slider-section .slider-btn .block-editor-rich-text__editable{
+    display: inline-block;
+    color: #1b1b1b !important;
+    font-weight: 500;
+    padding: 15px 25px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+.auto-parts-garage-slider-section .slider-btn .block-editor-rich-text__editable:hover{
+    background: #000 !important;
+    color: #fff !important; 
+}
+
+/*product section*/
+.auto-parts-garage-product-section{
+    gap: 5em !important;
+    max-width: 1220px;
+}
+.product-section .wc-block-grid__product-onsale{
+    display: none;
+}
+.product-section .wc-block-grid__product-title {
+    margin: 10px 0px 0px 0px !important;
+    color: #1b1b1b !important;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100% !important;
+    text-align: left;
+}
+.product-section .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link{
+    background: url(../images/product-cart.png) no-repeat scroll 14px #fff !important;
+    text-indent: -9999px;
+    float: right;
+    margin-top: -28%;
+    padding: 26px 24px !important;
+    color: #fff;
+    border-radius: 30px !important;
+    border: 1px solid #000;
+}
+.product-section .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:hover{
+    background: url(../images/product-cart.png) no-repeat scroll 12px #fdb819 !important;
+}
+.product-cat li{
+    border-bottom: solid 1px #ccc !important;
+    padding-bottom: 35px;
+}
+.product-section li.wc-block-grid__product, .product-section a.wc-block-grid__product-link{
+    display: flex;
+}
+.cover-section span.wp-block-cover__background.has-background-dim{
+    position: relative;
+}
+.cover-section .wp-block-cover{
+    min-height: auto;
+    min-width: max-content;
+}
+.cover-section{
+    margin-top: 50px !important;
+}
+.product-section img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail{
+    width: 200px;
+    height: 100px;
+}
+.editor-styles-wrapper .wc-block-grid .wc-block-grid__products .wc-block-grid__product{
+    margin: 13px 0px 20px;
+    gap: 0.5em;
+    padding-bottom: 60px;
+}
+.product-section .wc-block-grid__product-image {
+    display: flex;
+    margin-right: 20px !important;
+}
+.product-section .price{
+    margin: 50px 0px 0px -138px !important;
+    color: #1b1b1b;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    text-align: left;
+}
+.product-heading{
+    font-size: 28px;
+    font-weight: 600; 
+}
+.product-section .wp-block-button.wc-block-grid__product-add-to-cart {
+    margin: 25px -10px 0px 70px;
+}
+.cover-section img{
+    max-width: 100% !important;
+}
+.cover-section p.has-text-align-center.cover-heading.has-large-font-size{
+    font-size: 30px !important;
+    font-weight: 600;
+}
+.cover-btn .block-editor-rich-text__editable{
+    display: inline-block;
+    color: #1b1b1b !important;
+    font-weight: 600 !important;
+    padding: 15px 25px !important;
+    line-height: 1;
+    font-size: 14px !important;
+}
+.cover-btn .block-editor-rich-text__editable:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+.cover-section  .wp-block-cover__inner-container{
+    position: relative;
+    top: 5%;
+    text-align: center;
+    left: 1%;
+    border: 4px solid #fff;
+    right: 5%;
+    padding: 3em;
+    bottom: 5%;
+}
+.product-section  li.wc-block-grid__product{
+    position: relative;
+}
+.product-section .star-rating{
+    position: absolute;
+    top: 50%;
+    left: -31px;
+    right: 0;
+    color: #fdb819;
+}
